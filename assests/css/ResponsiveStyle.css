@@ -1,0 +1,1320 @@
+@media all and (max-width: 320px) {
+    .menu {
+        display: none;
+    }
+
+    .left-sidebar {
+        position: relative;
+        /*max-width: 201px;*/
+        max-width: 62vw;
+        left: 0;
+        margin: auto;
+        top: 15px;
+        transform: translateY(0);
+    }
+
+    .email {
+        font-size: 18px;
+    }
+
+    .address {
+        font-size: 18px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .left-sidebar .social-profile li a {
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+    }
+
+    .theme-btn {
+        padding: 15px;
+    }
+
+    .super-section > :first-child {
+        /*padding-left: 2rem;*/
+        padding: 0 2rem;
+    }
+
+    /*.main-count-section {*/
+    /*    gap: 15%*/
+    /*}*/
+    .count-section > h1 {
+        font-size: 50px;
+    }
+
+    .count-section > p {
+        font-size: 14px;
+    }
+
+    .hello h2 {
+        font-size: 36px;
+    }
+
+    .hello h1 {
+        font-size: 53px;
+    }
+
+    .hello h3 {
+        font-size: 14px;
+    }
+
+    .hello h4 {
+        font-size: 11px;
+    }
+
+    .main .go-to-project-btn {
+        width: 175px;
+        height: 175px;
+        margin-left: 0;
+        margin-top: 155px;
+        margin-right: 15px;
+        margin-bottom: 40px;
+    }
+
+    .main-title > h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .main-title > h1 {
+        font-size: 26px;
+    }
+
+    .about > :last-child {
+        max-width: 100%;
+    }
+
+    .git-logo i {
+        margin-left: 16px;
+    }
+
+    .about > :last-child > p {
+        font-size: 16px;
+    }
+
+    .super-section {
+        padding: 50px 0;
+    }
+
+    .item {
+        padding-left: 46px;
+    }
+
+    .item > h1 {
+        font-size: 14px;
+    }
+
+    .item > h4 {
+        font-size: 10px;
+    }
+
+    .certificate-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .skill-line > :nth-child(2) {
+        margin-left: 0;
+    }
+
+    .skill-line > :last-child {
+        margin-top: 0;
+    }
+
+    .tools-section {
+        display: flex;
+        flex-direction: row;
+        padding-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .tools {
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools-section > :first-child {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .tools > img {
+        margin: auto;
+    }
+
+    .tools > h4 {
+        font-size: 12px;
+    }
+
+    .project-img > video {
+        width: 100%;
+    }
+
+    .project > :nth-child(3) {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .project-img > h4 {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .work {
+        width: 100%;
+        height: 80px;
+    }
+
+    .assignment-list > section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 28px;
+    }
+
+    .main-img-section {
+        width: 100%;
+        height: 170px;
+    }
+
+    .services-list > div {
+        width: 100%;
+    }
+
+    .services-list > div > i {
+        font-size: 28px;
+        right: 20px;
+        top: 27px;
+    }
+
+    .services-list > div > h4 {
+        font-size: 12px;
+    }
+
+    .main-title > h4 {
+        font-size: 13px;
+    }
+
+    .input-group:nth-child(2) {
+        display: block;
+    }
+
+    .input-group:nth-child(4) {
+        width: 280px;
+    }
+
+    .input-group textarea::placeholder,
+    .input-group input::placeholder {
+        font-size: 16px;
+    }
+
+    .left-sidebar .portfolio {
+        width: 100%;
+    }
+
+    .layer h3 {
+        font-size: 12px;
+    }
+
+    .layer a {
+        margin-top: 10px;
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        bottom: 23px;
+    }
+
+    .input-group .submit-btn-wrap {
+        width: 100%;
+    }
+
+    .tools-section {
+        justify-content: center;
+    }
+    .main-certificate {
+        width: 100%;
+
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .menu {
+        display: none;
+    }
+
+    .super-section > :first-child {
+        padding: 0 2rem;
+    }
+
+    .left-sidebar {
+        /*max-width: 252px;*/
+        max-width: 68vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        top: 15px;
+        transform: translateY(0);
+    }
+
+    /*.super-section > :first-child {*/
+    /*    padding-left: 2rem;*/
+    /*}*/
+    .hello h2 {
+        font-size: 45px;
+    }
+
+    .hello h1 {
+        font-size: 65px;
+    }
+
+    .hello h3 {
+        font-size: 18px;
+    }
+
+    .hello h4 {
+        font-size: 13px;
+    }
+
+    .main .go-to-project-btn {
+        margin-left: 0;
+        margin-top: 170px;
+    }
+
+    .count-section > h1 {
+        font-size: 50px;
+    }
+
+    .main-title > h2 {
+        font-size: 25px;
+    }
+
+    .main-title > h1 {
+        font-size: 30px;
+    }
+
+    /*.count-section > section > h4 {*/
+    /*    font-size: 15px;*/
+    /*    margin-right: 77px;*/
+    /*}*/
+    .super-section {
+        padding: 60px 0;
+    }
+
+    .about > :last-child {
+        width: 100%;
+    }
+
+    .about > :last-child > p {
+        font-size: 18px;
+    }
+
+    .item > h1 {
+        font-size: 16px;
+    }
+
+    .item > h4 {
+        font-size: 11px;
+    }
+
+    .item {
+        padding-left: 62px;
+    }
+
+    .certificate-img {
+        width: 100%;
+    }
+
+    .skill-line > :nth-child(2) {
+        margin-left: 0;
+    }
+
+    .skill-line > :last-child {
+        margin-top: 0;
+    }
+
+    /*.tools-section {*/
+    /*    padding-top: 3rem;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+    .tools {
+        padding: 14px;
+    }
+
+    .tools-section > :first-child {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        /*gap: 4.7rem;*/
+    }
+
+    .tools > img {
+        /*padding: 10px;*/
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .tools > h4 {
+        font-size: 14px;
+    }
+
+    .project-img > video {
+        width: 100%;
+    }
+
+    .project > :nth-child(3) {
+        width: 100%;
+    }
+
+    .project-img > h4 {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .git-logo > i {
+        margin-left: 16px
+    }
+
+    .work {
+        width: 100%;
+        height: 90px;
+    }
+
+    .layer h3 {
+        font-size: 12px;
+    }
+
+    .layer a {
+        margin-top: 15px;
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+    .assignment-list > section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .main-img-section {
+        width: 100%;
+        height: 220px;
+    }
+
+    .services-list > div {
+        width: 100%;
+    }
+
+    .services-list > div > h4 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .main-title > h4 {
+        font-size: 14px;
+    }
+
+    /*.main-title > h4 {*/
+    /*    font-size: 16px;*/
+    /*    margin-bottom: 0;*/
+    /*    bottom: 66px;*/
+    /*}*/
+    .input-group:nth-child(2) {
+        display: block;
+    }
+
+    .input-group:nth-child(4) {
+        width: 335px;
+    }
+
+    .input-group textarea::placeholder,
+    .input-group input::placeholder {
+        font-size: 16px;
+    }
+
+    .input-group .submit-btn-wrap {
+        width: 100%;
+    }
+
+    .tools-section {
+        justify-content: center;
+    }
+    .main-certificate {
+        width: 100%;
+
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 425px) {
+    .menu {
+        display: none;
+    }
+
+    .super-section > :first-child {
+        padding: 0 2rem;
+    }
+
+    .left-sidebar {
+        /*max-width: 252px;*/
+        max-width: 68vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        top: 15px;
+        transform: translateY(0);
+    }
+
+    /*.super-section > :first-child {*/
+    /*    padding-left: 2rem;*/
+    /*}*/
+    .hello h2 {
+        font-size: 45px;
+    }
+
+    .hello h1 {
+        font-size: 65px;
+    }
+
+    .hello h3 {
+        font-size: 18px;
+    }
+
+    .hello h4 {
+        font-size: 13px;
+    }
+
+    .main .go-to-project-btn {
+        margin-left: 0;
+        margin-top: 170px;
+    }
+
+    .count-section > h1 {
+        font-size: 50px;
+    }
+
+    .main-title > h2 {
+        font-size: 25px;
+    }
+
+    .main-title > h1 {
+        font-size: 30px;
+    }
+
+    /*.count-section > section > h4 {*/
+    /*    font-size: 15px;*/
+    /*    margin-right: 77px;*/
+    /*}*/
+    .super-section {
+        padding: 60px 0;
+    }
+
+    .about > :last-child {
+        width: 100%;
+    }
+
+    .about > :last-child > p {
+        font-size: 18px;
+    }
+
+    .item > h1 {
+        font-size: 16px;
+    }
+
+    .item > h4 {
+        font-size: 11px;
+    }
+
+    .item {
+        padding-left: 62px;
+    }
+
+    .certificate-img {
+        width: 100%;
+    }
+
+    .skill-line > :nth-child(2) {
+        margin-left: 0;
+    }
+
+    .skill-line > :last-child {
+        margin-top: 0;
+    }
+
+    /*.tools-section {*/
+    /*    padding-top: 3rem;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+    .tools {
+        padding: 14px;
+    }
+
+    .tools-section > :first-child {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        /*gap: 4.7rem;*/
+    }
+
+    .tools > img {
+        /*padding: 10px;*/
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .tools > h4 {
+        font-size: 14px;
+    }
+
+    .project-img > video {
+        width: 100%;
+    }
+
+    .project > :nth-child(3) {
+        width: 100%;
+    }
+
+    .project-img > h4 {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .git-logo > i {
+        margin-left: 16px
+    }
+
+    .work {
+        width: 100%;
+        height: 90px;
+    }
+
+    .layer h3 {
+        font-size: 12px;
+    }
+
+    .layer a {
+        margin-top: 15px;
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+    .assignment-list > section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .main-img-section {
+        width: 100%;
+        height: 220px;
+    }
+
+    .services-list > div {
+        width: 100%;
+    }
+
+    .services-list > div > h4 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .main-title > h4 {
+        font-size: 14px;
+    }
+
+    /*.main-title > h4 {*/
+    /*    font-size: 16px;*/
+    /*    margin-bottom: 0;*/
+    /*    bottom: 66px;*/
+    /*}*/
+    .input-group:nth-child(2) {
+        display: block;
+    }
+
+    .input-group:nth-child(4) {
+        width: 335px;
+    }
+
+    .input-group textarea::placeholder,
+    .input-group input::placeholder {
+        font-size: 16px;
+    }
+
+    .input-group .submit-btn-wrap {
+        width: 100%;
+    }
+
+    .tools-section {
+        justify-content: center;
+    }
+    .main-certificate {
+        width: 100%;
+
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 575px) {
+
+    .menu {
+        display: none;
+    }
+
+    .super-section > :first-child {
+        padding: 0 2rem;
+    }
+
+    .left-sidebar {
+        /*max-width: 252px;*/
+        max-width: 68vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        top: 15px;
+        transform: translateY(0);
+    }
+
+
+    .hello h2 {
+        font-size: 45px;
+    }
+
+    .hello h1 {
+        font-size: 65px;
+    }
+
+    .hello h3 {
+        font-size: 18px;
+    }
+
+    .hello h4 {
+        font-size: 13px;
+    }
+
+    .main .go-to-project-btn {
+        margin-left: 0;
+        margin-top: 170px;
+    }
+
+    .count-section > h1 {
+        font-size: 50px;
+    }
+
+    .main-title > h2 {
+        font-size: 25px;
+    }
+
+    .main-title > h1 {
+        font-size: 30px;
+    }
+
+    /*.count-section > section > h4 {*/
+    /*    font-size: 15px;*/
+    /*    margin-right: 77px;*/
+    /*}*/
+    .super-section {
+        padding: 60px 0;
+    }
+
+    .about > :last-child {
+        width: 100%;
+    }
+
+    .about > :last-child > p {
+        font-size: 18px;
+    }
+
+    .item > h1 {
+        font-size: 16px;
+    }
+
+    .item > h4 {
+        font-size: 11px;
+    }
+
+    .item {
+        padding-left: 62px;
+    }
+
+    .certificate-img {
+        width: 100%;
+    }
+
+    .skill-line > :nth-child(2) {
+        margin-left: 0;
+    }
+
+    .skill-line > :last-child {
+        margin-top: 0;
+    }
+
+    /*.tools-section {*/
+    /*    padding-top: 3rem;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+    .tools {
+        padding: 14px;
+    }
+
+    .tools-section > :first-child {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        /*gap: 4.7rem;*/
+    }
+
+    .tools > img {
+        /*padding: 10px;*/
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .tools > h4 {
+        font-size: 14px;
+    }
+
+    .project-img > video {
+        width: 100%;
+
+    }
+
+    .project > :nth-child(3) {
+        width: 100%;
+    }
+
+    .project-img > h4 {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .git-logo > i {
+        margin-left: 16px
+    }
+
+    .work {
+        width: 100%;
+        height: 90px;
+    }
+
+    .layer h3 {
+        font-size: 12px;
+    }
+
+    .layer a {
+        margin-top: 15px;
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+    .assignment-list > section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .main-img-section {
+        width: 100%;
+        height: 220px;
+    }
+
+    .services-list > div {
+        width: 100%;
+    }
+
+    .services-list > div > h4 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .main-title > h4 {
+        font-size: 14px;
+    }
+
+    .input-group:nth-child(2) {
+        display: block;
+    }
+
+    .input-group:nth-child(4) {
+        width: 335px;
+    }
+
+    .input-group textarea::placeholder,
+    .input-group input::placeholder {
+        font-size: 16px;
+    }
+
+    .input-group .submit-btn-wrap {
+        width: 100%;
+    }
+
+    .tools-section {
+        justify-content: center;
+    }
+
+    .certificate-img > div {
+        width: 75%;
+    }
+
+    .project-img {
+        width: 75%;
+    }
+
+    .assignment-list {
+        justify-content: center;
+    }
+    .main-certificate {
+        width: 100%;
+
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+
+    .tools-section {
+        justify-content: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .super-section > :first-child {
+        padding: 0 4rem;
+    }
+
+    .left-sidebar {
+        /*max-width: 252px;*/
+        max-width: 75vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        top: 15px;
+        transform: translateY(0);
+    }
+
+    .hello h2 {
+        font-size: 52px;
+    }
+
+    .hello h1 {
+        font-size: 72px;
+    }
+
+    .hello h3 {
+        font-size: 24px;
+    }
+
+    .hello h4 {
+        font-size: 22px;
+    }
+
+    .main .go-to-project-btn {
+        margin-left: auto;
+    }
+
+    .count-section > h1 {
+        font-size: 82px;
+    }
+
+    .count-section > p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .main-title > h2 {
+        font-size: 50px;
+    }
+
+    .main-title > h1 {
+        font-size: 60px;
+    }
+
+    .super-section {
+        padding: 60px 0;
+    }
+
+    .about > :last-child {
+        width: 100%;
+    }
+
+    .about > :last-child > p {
+        font-size: 22px;
+    }
+
+    .item > h1 {
+        font-size: 25px;
+    }
+
+    .item > h4 {
+        font-size: 11px;
+    }
+
+    .item {
+        padding-left: 62px;
+    }
+
+    .certificate-img {
+        width: 100%;
+    }
+
+    .skill-line > :last-child {
+        margin-top: 0;
+    }
+
+    .tools {
+        padding: 14px;
+    }
+
+    .tools-section > :first-child {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tools > img {
+        /*padding: 10px;*/
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .tools > h4 {
+        font-size: 14px;
+    }
+
+    .project-img > video {
+        width: 100%;
+    }
+
+    .project > :nth-child(3) {
+        width: 100%;
+    }
+
+    .project-img > h4 {
+        font-size: 15px;
+        margin-bottom: 34px;
+    }
+
+    .git-logo > i {
+        margin-left: 16px
+    }
+
+    .work {
+        width: 100%;
+        height: 150px;
+    }
+
+    .layer h3 {
+        font-size: 12px;
+    }
+
+    .layer a {
+        margin-top: 15px;
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+    .assignment-list {
+        justify-content: center;
+    }
+
+    .assignment-list > section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .main-img-section {
+        width: 100%;
+    }
+
+    .services-list > div {
+        width: 100%;
+    }
+
+    .services-list > div > h4 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .main-title > h4 {
+        font-size: 14px;
+    }
+
+    .input-group:nth-child(2) {
+        display: inline-block;
+    }
+
+    .input-group:nth-child(4) {
+        width: 100%;
+    }
+
+    .input-group textarea::placeholder,
+    .input-group input::placeholder {
+        font-size: 16px;
+    }
+
+    .input-group .submit-btn-wrap {
+        width: 100%;
+    }
+
+    .input-group {
+        width: 349px;
+    }
+
+    .certificate-img > div {
+        width: 75%;
+    }
+
+    .project-img {
+        width: 75%;
+    }
+
+    .main-certificate {
+        width: 100%;
+
+    }
+
+    .skill-line > :nth-child(2) {
+        display: block;
+        margin: 0;
+    }
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .tools-section {
+        justify-content: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .super-section > :first-child {
+        padding: 0 6rem;
+    }
+
+    .left-sidebar {
+        /*max-width: 252px;*/
+        max-width: 75vw;
+        position: relative;
+        left: 0;
+        margin: auto;
+        top: 15px;
+        transform: translateY(0);
+    }
+
+    .hello h2 {
+        font-size: 52px;
+    }
+
+    .hello h1 {
+        font-size: 72px;
+    }
+
+    .hello h3 {
+        font-size: 24px;
+    }
+
+    .hello h4 {
+        font-size: 22px;
+    }
+
+    .main .go-to-project-btn {
+        margin-left: auto;
+    }
+
+    .count-section > h1 {
+        font-size: 82px;
+    }
+
+    .count-section > p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .main-title > h2 {
+        font-size: 50px;
+    }
+
+    .main-title > h1 {
+        font-size: 60px;
+    }
+
+    .super-section {
+        padding: 60px 0;
+    }
+
+    .about > :last-child {
+        width: 100%;
+    }
+
+    .about > :last-child > p {
+        font-size: 22px;
+    }
+
+    .item > h1 {
+        font-size: 24px;
+    }
+
+    .item > h4 {
+        font-size: 18px;
+    }
+
+    .item {
+        padding-left: 62px;
+    }
+
+    .certificate-img {
+        width: 100%;
+    }
+
+    .skill-line > :last-child {
+        margin-top: 0;
+    }
+
+    .tools {
+        padding: 30px;
+    }
+
+    .tools-section > :first-child {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tools > img {
+        /*padding: 10px;*/
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .tools > h4 {
+        font-size: 14px;
+    }
+
+    .project-img > video {
+        width: 100%;
+    }
+
+    .project > :nth-child(3) {
+        width: 100%;
+    }
+
+    .project-img > h4 {
+        font-size: 15px;
+        margin-bottom: 34px;
+    }
+
+    .git-logo > i {
+        margin-left: 16px
+    }
+
+    .work {
+        width: 100%;
+        height: 150px;
+    }
+
+    .layer h3 {
+        font-size: 12px;
+    }
+
+    .layer a {
+        margin-top: 15px;
+        font-size: 20px;
+        bottom: 20px;
+    }
+
+    .assignment-list {
+        justify-content: center;
+    }
+
+    .assignment-list > section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .main-img-section {
+        width: 100%;
+    }
+
+    .services-list > div {
+        width: 100%;
+    }
+
+    .services-list > div > h4 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .main-title > h4 {
+        font-size: 14px;
+    }
+
+    .input-group:nth-child(2) {
+        display: inline-block;
+    }
+
+    .input-group:nth-child(4) {
+        width: 100%;
+    }
+
+    .input-group textarea::placeholder,
+    .input-group input::placeholder {
+        font-size: 16px;
+    }
+
+    .input-group .submit-btn-wrap {
+        width: 100%;
+    }
+
+    .input-group {
+        width: 349px;
+    }
+
+    .certificate-img > div {
+        width: 75%;
+    }
+
+    .project-img {
+        width: 75%;
+    }
+
+    .main-certificate {
+        width: 100%;
+
+    }
+
+    .skill-line > :nth-child(2) {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 2560px) {
+    .super-section > :first-child {
+        margin-left: 500px;
+    }
+
+    .left-sidebar .portfolio {
+        width: 100%;
+    }
+}
+

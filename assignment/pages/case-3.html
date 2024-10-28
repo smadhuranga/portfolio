@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case-3</title>
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .main-circle {
+            border-radius: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #circle-4 {
+            position: fixed;
+            width: 33vh;
+            height: 33vh;
+            border: 18px solid grey;
+        }
+
+        #circle-5 {
+            position: fixed;
+            width: 30vh;
+            height: 30vh;
+            border: 15px solid red;
+        }
+
+        .inner-circle {
+            width: 30vh;
+            height: 30vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        #circle-1 {
+            background-color: #8e317b;
+        }
+
+        #circle-2 {
+            background-color: #0085ad;
+        }
+
+        #circle-3 {
+            background-color: #fa5c40;
+        }
+
+        .inner-container {
+            position: relative;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<div class="inner-container">
+    <div class="inner-circle" id="circle-1">
+        <p>Hello</p>
+    </div>
+</div>
+
+<div class="inner-container">
+    <div class="inner-circle" id="circle-2">
+        <p>Welcome To</p>
+    </div>
+</div>
+
+<div class="inner-container">
+    <div class="inner-circle" id="circle-3">
+        <p>Institute of Software Engineering</p>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="main-circle" id="circle-4"></div>
+    <div class="main-circle" id="circle-5"></div>
+</div>
+</body>
+</html>
